@@ -62,12 +62,12 @@ function setup() {
 }
 
 function preload() {
-  img_title = loadImage('/assets/title.png');
-  img_water = loadImage('/assets/water.png');
-  img_plant = loadImage('/assets/plant.png');
-  img_orago = loadImage('/assets/orago.png');
-  img_kakora = loadImage('/assets/kakora.png');
-  img_mycelon = loadImage('/assets/mycelon.png');
+  img_title = loadImage('./assets/title.png');
+  img_water = loadImage('./assets/water.png');
+  img_plant = loadImage('./assets/plant.png');
+  img_orago = loadImage('./assets/orago.png');
+  img_kakora = loadImage('./assets/kakora.png');
+  img_mycelon = loadImage('./assets/mycelon.png');
 }
 
 function draw() {
